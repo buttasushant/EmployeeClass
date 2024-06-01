@@ -2,13 +2,20 @@ package org.buttas;
 
 class Employee{
 
+    private int eid;
+    private String ename;
+
+    public Employee(int eid, String ename) {
+        this.eid = eid;
+        this.ename = ename;
+    }
+
     public Employee(String ename, int eid){
         this.ename = ename;
         this.eid = eid;
     }
 
-    private int eid;
-    private String ename;
+
 
     public int getEid() {
         return eid;
